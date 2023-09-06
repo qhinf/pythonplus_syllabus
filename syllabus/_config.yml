@@ -47,6 +47,9 @@ sphinx:
       deadline: "donderdag 2 november, 16:00"
       deadline_uitstel_aanvragen: "maandag 23 oktober, 16:00"
       deadline_uitstel: "dinsdag 28 november , 16:00"
+      docent: "Pieter van Engelen"
+      docent_email: "p punt vanengelen apenstaartje quadraam punt nl"
+
 
 
 # html, repository en launch_buttons instellingen worden globaal voor alle

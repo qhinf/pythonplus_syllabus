@@ -7,6 +7,7 @@ root: index
 options:
   numbered: true
 chapters:
-#- file: markdown
+- file: eindopdracht
+#- file: down
 #- file: notebooks
 #- file: markdown-notebooks
