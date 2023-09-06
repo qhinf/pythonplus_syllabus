@@ -1,5 +1,7 @@
 # Python+
 
+![Fat Python](assets/d5opepe-d6f86be4-ce81-430b-b75f-d2fba9d64169.jpg)
+
 Bij Python+ ga je aan de slag aan een groter Python-project. Groter dan dat je bij Basis van Programmeren met Python hebt gedaan. Wat je gaat maken, dat mag je helemaal zelf verzinnen. We gaan in deze module vooral kijken naar:
 
 - Hoe je een groter programma schrijft en waar je tegenaan loopt
