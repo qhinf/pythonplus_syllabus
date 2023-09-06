@@ -7,7 +7,12 @@ root: index
 options:
   numbered: true
 chapters:
+- file: Les_1
+- file: Les_2
 - file: eindopdracht
+- file: Bijlage_1
+- file: Bijlage_2
+- file: Bijlage_3
 #- file: down
 #- file: notebooks
 #- file: markdown-notebooks
