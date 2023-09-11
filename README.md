@@ -31,8 +31,8 @@ De homepagina staat dan in *syllabus\\_build\html\index.html*.
 
 #### First time build
 
-```
-git clone clone https://github.com/qhinf/syllabi.git
+```bash
+git clone https://github.com/qhinf/syllabi.git
 cd syllabi
 git submodule init
 git status
@@ -42,3 +42,17 @@ git push
 git submodule update --remote
 ```
 
+En dan wachten maar.
+
+#### Na een update van de syllabus
+
+```bash
+cd syllabi
+git submodule update --remote
+git add .
+git commit -m "grote boodschap"
+git push
+git submodule update --remote
+```
+
+En dan wachten maar.
