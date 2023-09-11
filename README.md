@@ -26,3 +26,19 @@ jupyter-book build syllabus
 ```
 
 De homepagina staat dan in *syllabus\\_build\html\index.html*.
+
+### Voor Pieter, omdat hij niks kan onthouden
+
+#### First time build
+
+```
+git clone clone https://github.com/qhinf/syllabi.git
+cd syllabi
+git submodule init
+git status
+git add .
+git commit -m "met een boodschap"
+git push
+git submodule update --remote
+```
+
