@@ -13,6 +13,13 @@ In de eerste week van deze module starten we samen met een korte kennismaking en
 - Je Git-repo koppelen aan PyCharm
 - En je bent klaar om code te schrijven en publiceren!
 
+## Aan het einde van de les
+
+- Heb je Python en PyCharm geïnstalleerd op je laptop
+- Heb je een GitHub-account
+- Heb je een Git-repo gemaakt en deze doorgegeven aan de docent
+- Heb je je Git-repo gekoppeld aan PyCharm
+
 ## Huiswerkopdracht voor les 2
 
 Voor de volgende les maak je concreet wat je voor je eindopdracht gaat maken. Jouw onderwerp en doel kan van alles zijn. Zorg ervoor dat je het helder voor je hebt wat je wel en wat je niet gaat maken. In les twee bespreken we individueel je opdracht door en kijken o.a. naar de haalbaarheid.
