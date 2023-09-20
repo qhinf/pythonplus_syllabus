@@ -34,7 +34,7 @@ Waar staan de bestanden? Op de site van GitHub en op je computer. Met git-comman
 
 Voor dit deel heb je al een Git-account nodig en heb je ook de `git`-gereedschappen geïnstalleerd op je laptop.
 
-1. Maak een nieuw project aan zoals uitgelegd in {doc}`Bijlage_3`.
+1. Maak een nieuw project aan zoals uitgelegd in {doc}`Bijlage_2.
 2. **TODO**
 
 ## Code commit en push
