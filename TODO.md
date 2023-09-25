@@ -1,7 +1,7 @@
 # To do
 
+- [ ] Syllabus refactoren naar hoofdstukken en een aparte lesplanning toevoegen
 - [ ] Bijlage GitHub en PyCharm uitwerken
-- [ ] Les 2 uitwerken
 - [ ] Les 3 uitwerken
 - [ ] Les 4 uitwerken
 
@@ -9,3 +9,4 @@
 
 - [x] Bijlage Python & PyCharm installeren uitwerken
 - [x] Bijlage Nieuw Project in PyCharm uitwerken
+- [x] Les 2 uitwerken
