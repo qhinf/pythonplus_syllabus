@@ -1,4 +1,4 @@
-# Les 2: Leesbare code
+# Leesbare code
 
 ## Tijdens de les
 

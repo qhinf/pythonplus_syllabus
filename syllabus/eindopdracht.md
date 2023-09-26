@@ -22,5 +22,5 @@ De **deadline** voor het inleveren van je product is **{{ deadline }}**, het _ee
 
 ------
 
-[[1\]](#_ftnref1) pip freeze > requirements.txt
+[[1\]](#_ftnref1) pip freeze > requirements.txt. Zie ook {doc}`Bijlage_4.md
 

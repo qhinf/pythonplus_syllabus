@@ -1,4 +1,4 @@
-# Les 1: Beginnen met Python+
+# Beginnen met Python+
 
 In de eerste week van deze module starten we samen met een korte kennismaking en bespreken we wat we gaan leren en ook hoe we dat gaan doen. Daarna gaan we aan meteen aan de slag met de professionele gereedschappen.
 
