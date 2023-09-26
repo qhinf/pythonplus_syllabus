@@ -3,6 +3,8 @@
 - [ ] Syllabus refactoren naar hoofdstukken en een aparte lesplanning toevoegen
 - [ ] Bijlage GitHub en PyCharm uitwerken
 - [ ] Les 3 Debugging uitwerken
+- [ ] Referentie in eindopdracht naar hoofdstuk over Leesbare code bijwerken
+- [ ] Referenties bijwerken na refactoring
 
 # Completed
 
