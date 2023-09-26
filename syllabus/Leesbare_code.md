@@ -1,21 +1,6 @@
 # Leesbare code
 
-## Tijdens de les
-
-- Bespreken huiswerk opdracht MosCoW.
-- PEP8 Guidelines en leesbare code
-- Tips voor een goede start van je project
-- Tijd voor werken aan je project en individuele gesprekken over keuze eindopdracht
-
-## Na de les
-
-- Weet je hoe je Python-code volgens de PEP8 guidelines moet schrijven en hoe je dit in PyCharm doet.
-- Weet je hoe leesbare code eruit ziet.
-- Heb je een start gemaakt met je project.
-
-## Leesbare code
-
-### PEP8 Guidelines
+## PEP8 Guidelines
 
 Wanneer je een boek leest, verwacht je ook dat je niet alleen een leesbaar lettertype hebt, maar ook dat er een bepaalde structuur in het boek zit. Hoofdstukken, punten, komma's, lijstjes en al die andere zaken. Deze structuur zorgt ervoor dat je sneller kan begrijpen wat er staat. Het bevordert de leesbaarheid. Bij het lezen van programmeercode is het precies hetzelfde. Je hebt bij Basis van Programmeren met Python een start gemaakt met programmeren en mogelijk niet heel erg gelet op de leesbaarheid. Dat is op zich niet erg. Maar wanneer je met andere mensen gaat samenwerken, dan is de leesbaarheid van je code erg belangrijk. Want je wil natuurlijk dat andere mensen ook kunnen begrijpen wat je bedacht en geschreven hebt. Het schrijven van leesbare code heeft niet alleen nu met samenwerken. Wanneer je je eigen code na een half jaar nog eens terugleest, dan ben je jezelf dankbaar wanneer je leesbare code hebt geschreven.
 
@@ -23,13 +8,13 @@ Voor Python zijn er richtlijnen voor het schrijven van leesbare code. Deze richt
 
 In de les ga je deze richtlijnen lezen en bespreken.
 
-### Leesbare code
+## Leesbare code
 
 Wanneer je je code helemaal volgens de PEP8 Guidelines opgesteld hebt, dan is er nog een extra toevoeging, die je code leesbaarder maakt. *Commentaar*. In Python is dat een `#` voor je regel code.
 
 Het volgende tekst is een aanpassing van https://kinsta.com/blog/python-comments/
 
-#### Inline commentaar
+### Inline commentaar
 
 Wil je een kort commentaar leveren om een verheldering van een regel code, dan zet je deze op dezelfde regel als de code. Het commentaar geeft uitleg van de betekenis van die regel.
 
@@ -37,7 +22,7 @@ Wil je een kort commentaar leveren om een verheldering van een regel code, dan z
 rand = x + 10 # Maak een rand van 10px
 ```
 
-#### Block commentaar
+### Block commentaar
 
 Wordt een regel code langer dan 79 karakters door een inline commentaar? Dan zet je het op meerdere regels. Dit heet een *block commentaar*. Dit klinkt ook logisch als je meer uitleg nodig hebt. Volgens de PEP8 richtlijnen plaats je een block commentaar vóór het codeblock.
 
@@ -50,7 +35,7 @@ data = groupby(persons, key=lambda x:x[0])
 
 *Het is niet erg wanneer je de code niet helemaal begrijpt, het gaat om de stijl van commentaar geven.*
 
-#### Multi line commentaar
+### Multi line commentaar
 
 Soms wil je op een stukje code meer toelichting geven, dan er op één regel past. Dan kun je in Python op twee manieren te werk. Of je kunt elke regel een `#` geven. Dat ziet er zo uit:
 
@@ -74,11 +59,11 @@ uit zien
 
 Technisch gezien is dit een string, die op meerdere regels gedefinieerd wordt. Omdat de string niet aan een variabele wordt toegewezen, doet Python er niks mee en is het in feite een commentaar.
 
-#### Speciale commentaren
+### Speciale commentaren
 
 Je kunt je code leesbaarder maken door het toevoegen van commentaren. Dit zorgt ervoor dat de mensen, die je code lezen (inclusief jezelf na verloop van tijd), beter weten wat er gebeurd. Commentaren in Python kunnen ook nog de functie hebben om de workflow rondom een project beter te maken. Dit kan door middel van Docstrings en TODO/FIXME.
 
-##### Docstring commentaar
+#### Docstring commentaar
 
 Het kan voorkomen dat je tijdens het programmeren wil weten wat een bepaalde functie doet. Je wil de documentatie van die functie oproepen. Deze kun je zeer waarschijnlijk wel op het internet vinden. In de Python-interpreter zit ook een `help` -functie. Typ maar eens in de Python-interpreter (*Python Console* in PyCharm): `help(print)`. Dan krijg je allerlei nuttige informatie over de `print`-functie. Deze documentatie kun je voor de functies, die je voor je eigen project schrijft ook maken. Deze standaard wordt **Docstring** genoemd. Sterker nog, de documentatie die je op het internet vindt van bijvoorbeeld de `print`-functie is grotendeels gegenereerd uit DocStrings. Zo ziet een Docstring eruit:
 
@@ -110,7 +95,7 @@ In de regels na `def` zet je een multi-line string met een beschrijving van de f
 
 Wil je meer weten over Docstrings? Het staat allemaal beschreven in de [PEP 257 Guideline](https://peps.python.org/pep-0257/).
 
-##### TODO/FIXME commentaar
+#### TODO/FIXME commentaar
 
 Wanneer je code aan het schrijven bent, dan kan het zijn dat je fouten of nieuwe taken voor je project bedenkt, die niet meteen met de flow waar je op dat moment inzit te maken hebben. Je wil eigenlijk je concentratie voor dat ene probleem vast houden en niet meteen dat nieuwe ding induiken. Je kunt natuurlijk een lijstje van dit soort 'zijsporen' op pen en papier bijhouden. Maar je kunt het ook in **TODO/FIXME-commentaren** bijhouden.
 
@@ -128,11 +113,11 @@ Dat ziet er zo uit:
 
 PyCharm biedt een mogelijk om alle TODO's en FIXME's overzichtelijk weer te geven. Hoe dit voor jouw versie van PyCharm werkt, kijk (hier)[https://www.jetbrains.com/help/pycharm/using-todo.html].
 
-#### Wat schrijf je dan in een commentaar?
+### Wat schrijf je dan in een commentaar?
 
 We hebben het nu gehad over wat voor soort commentaren er zijn en hoe je ze in kan zetten bij je workflow. Maar *wat* schrijf je nu eigenlijk als commentaar.
 
-##### Vermijd het voor de hand liggende
+#### Vermijd het voor de hand liggende
 
 Commentaren waarbij je herhaalt, wat gemakkelijk uit de code is af te leiden zijn overbodig. Bekijk het volgende commentaar:
 
@@ -146,7 +131,7 @@ Dit commentaar zegt precies hetzelfde als de code al zegt. Het commentaar voegt 
 x = x + 4 # hoog de randbreedte met 4 op
 ```
 
-##### Houd je commentaren kort en krachtig
+#### Houd je commentaren kort en krachtig
 
 Jij vindt het waarschijnlijk ook niet leuk om enorme lange verhalen te lezen en vooral om door te lezen, terwijl je al weet waar het naartoe gaat. Precies zo is het met commentaar bij code. Lees het commentaar van de volgende functie:
 
@@ -167,7 +152,7 @@ def oppervlakte_cylinder(r, h):
   return ((2*3.14*r*h) + 2*3.14*r*r)
 ```
 
-##### Pas op met identifiers
+#### Pas op met identifiers
 
 Kijk even mee met het volgende code fragment en bijbehorend commentaar:
 
@@ -191,7 +176,7 @@ def func(cls, arg):
 
 2. Geen variabele-namen gebruiken in je commentaar en een goede samenvatting geven
 
-##### DRY en WET
+#### DRY en WET
 *DRY* en *WET* staan voor Don't Repeat Yourself en Write Everything Once. Buiten dat dit principes zijn, die je voor het coderen gebruikt, kun je ze ook voor commentaren gebruiken. *DRY* staat voor *Niet in herhaling vallen* en *WET* voor *schrijf het slechts eenmaal*. Het lijkt een beetje op hetzelfde. Kijk even mee met het volgende code-fragment:
 
 ```python
@@ -212,7 +197,7 @@ def doe_iets(y):
       print('Lalala klus x')
 ```
 
-##### Consistente indentatie
+#### Consistente indentatie
 
 Zorg dat je commentaren op hetzelfde niveau van indentatie staan als de code die beschreven wordt. Is dat niet het geval, dan is het moeilijk te lezen. Kijk naar het volgende voorbeeld:
 
@@ -234,7 +219,7 @@ for i in range(2,20, 2):
         doe_iets(x)
 ```
 
-##### Samengevat
+#### Samengevat
 
 - Een commentaar legt het *waarom* van een stuk code uit
 - Een commentaar vat samen
@@ -243,7 +228,7 @@ for i in range(2,20, 2):
 - Een commentaar zou de benodigde leestijd van een code fragment moeten doen afnemen! Hou het overzichtelijk
 - Zet commentaren op hetzelfde niveau van indentatie als de bijbehorende code
 
-### Zo ziet het er uit
+## Zo ziet het er uit
 
 ```python
 """
