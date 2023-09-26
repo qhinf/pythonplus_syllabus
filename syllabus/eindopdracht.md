@@ -8,7 +8,7 @@ Je hebt aan het begin van de cursus een keuze gemaakt wat je wil maken. Dit kan 
 
 | **Criterium**           | **Korte toelichting**                                        | **Maximale   score** |
 | ----------------------- | ------------------------------------------------------------ | -------------------- |
-| **Code leesbaarheid**   | Je code voldoet aan de PEP8-guidelines                       | 35                   |
+| **Code leesbaarheid**   | Je code voldoet aan de PEP8-guidelines en de commentaar regels (zie #TODO) | 35                   |
 | **Code correctheid**    | De docent kan je code downloaden, de benodigde  bibliotheken importeren en vervolgens op ‘Run’ klikken, zonder dat er  foutmeldingen komen. Je programma draait naar behoren en crasht niet bij de  minste of geringste weerstand. | 35                   |
 | **Bestanden en mappen** | Je code heb je in verschillende Python-bestanden op  logische wijze georganiseerd. Inclusief steunbestanden, zoals afbeeldingen.   Je hebt een *requirements.txt*[[1\]](#_ftn1)  in je repo staan, zodat andere programmeurs gemakkelijk je code kunnen  draaien. | 10                   |
 | **Originaliteit**       | Je hebt je code natuurlijk zelf geschreven. Het is  begrijpelijk wanneer je kleine fragmenten van andere programmeurs gebruikt. Wanneer  je je code overwegend gekopieerd hebt is het natuurlijk plagiaat, maar een  beetje inspiratie mag. Hoe minder je gekopieerd hebt, hoe hoger deze score. | 10                   |
