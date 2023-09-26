@@ -8,11 +8,11 @@ options:
   numbered: 3
 chapters:
 - file: Lesplanning
-- file: Beginnen_met_PythonPlus
+#- file: Beginnen_met_PythonPlus
+- file: inspiratie
 - file: Leesbare_code
 - file: Debuggen
 - file: eindopdracht
-- file: inspiratie.md
 - file: Bijlage_Installeren
 - file: Bijlage_nieuwproject
 - file: Bijlage_Github_en_Pycharm
