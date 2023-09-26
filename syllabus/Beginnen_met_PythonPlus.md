@@ -1,25 +1,5 @@
 # Beginnen met Python+
 
-In de eerste week van deze module starten we samen met een korte kennismaking en bespreken we wat we gaan leren en ook hoe we dat gaan doen. Daarna gaan we aan meteen aan de slag met de professionele gereedschappen.
-
-## Tijdens de les
-
-- Korte kennismaking
-- De syllabus tot hier
-- Hoe ziet de module eruit?
-- Hoe breng je deze module tot een goed einde?
-- Installeren Python en PyCharm
-- Je eerste Git-repository aanmaken
-- Je Git-repo koppelen aan PyCharm
-- En je bent klaar om code te schrijven en publiceren!
-
-## Aan het einde van de les
-
-- Heb je Python en PyCharm geïnstalleerd op je laptop
-- Heb je een GitHub-account
-- Heb je een Git-repo gemaakt en deze doorgegeven aan de docent
-- Heb je je Git-repo gekoppeld aan PyCharm
-
 ## Huiswerkopdracht voor les 2
 
 Voor de volgende les maak je concreet wat je voor je eindopdracht gaat maken. Jouw onderwerp en doel kan van alles zijn. Zorg ervoor dat je het helder voor je hebt wat je wel en wat je niet gaat maken. In les twee bespreken we individueel je opdracht door en kijken o.a. naar de haalbaarheid.
