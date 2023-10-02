@@ -1,5 +1,5 @@
-# To do
-```tasklist
+```[tasklist]
+# To do Python Plus Syllabus
 - [ ] Bijlage GitHub en PyCharm uitwerken
 - [ ] Hoofdstuk Debugging uitwerken
 - [ ] Hoofdstuk bestands organisatie schrijven
