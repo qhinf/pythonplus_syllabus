@@ -4,6 +4,7 @@
 - [ ] Hoofdstuk Debugging uitwerken
 - [ ] Hoofdstuk bestands organisatie schrijven
 - [ ] Referenties bijwerken na refactoring
+- [ ] hoofdstuk over README.md toevoegen, gebaseerd op [deze shizzle](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 
 # Completed
 
