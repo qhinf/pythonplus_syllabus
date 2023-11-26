@@ -9,19 +9,25 @@ Een `requirements.txt` maakt het eenvoudig om op een andere machine je Pythonpro
 pip freeze > .\requirements.txt
 ```
 
+3. Mocht je nu in de problemen komen, omdat het commando `pip` niet herkend wordt door je computer, dan kun je alsnog een `requirements.txt` genereren in PyCharm. Klik hiervoor op het menu *Tools*. Kies vervolgens voor *Sync Python requirements*. Je komt dan in een dialoogvenster terecht. Je hoeft alleen maar op *OK* te klikken. PyCharm plaatst vervolgens een `requirements.txt` met de door jouw code gebruikte externe bibliotheken in de projectmap. Waarschijnlijk zal PyCharm dan een melding geven of je het bestand aan de Git-repo wil toevoegen. Uiteraard klik je op *Add*. 
 3. Als je een nieuwe package nodig hebt, kun je ze op de volgende manier toevoegen `<packagename>==version`, bijvoorbeeld:
 
 `Tensorflow==2.11.0`
-4. Om de packages vervolgens te installeren open je de terminal en voer je het volgende commando uit:
+
+5. Om de packages vervolgens te installeren open je de terminal en voer je het volgende commando uit:
+
 ```
 pip install -r .\requirements.txt
 ```
-5. Voor het toevoegen van nieuwe packages, update je dus de `requirements.txt` en installeer je de file. Vergeet de packages niet te importeren in je .py files.
-6. Je kunt kijken of alle packages up to date zijn door middel van het commando: 
+6. Voor het toevoegen van nieuwe packages, update je dus de `requirements.txt` en installeer je de file. Vergeet de packages niet te importeren in je .py files.
+
+7. Je kunt kijken of alle packages up to date zijn door middel van het commando: 
+
 ```
 pip list --outdated
 ```
-7. Je kunt alle packages updaten door middel van het commando: 
+8. Je kunt alle packages updaten door middel van het commando: 
+
 ```
 pip upgrade -r requirements.txt
 ```
@@ -29,4 +35,4 @@ Of een specifieke package door middel van het commando:
 ```
 pip install -U packagename
 ```
-8. Meer tips en trucks kun je hier vinden: (https://learnpython.com/blog/python-requirements-file/)
+9. Meer tips en trucks kun je hier vinden: (https://learnpython.com/blog/python-requirements-file/)
