@@ -5,18 +5,16 @@
 format: jb-book
 root: index
 options:
-  numbered: 3
+  numbered: 2
 chapters:
 - file: Lesplanning
-#- file: Beginnen_met_PythonPlus
 - file: inspiratie
 - file: Leesbare_code
 - file: Debuggen
+- file: technieken
+- file: structuur
 - file: eindopdracht
 - file: Bijlage_Installeren
 - file: Bijlage_nieuwproject
 - file: Bijlage_Github_en_Pycharm
 - file: Bijlage_requirements
-#- file: down
-#- file: notebooks
-#- file: markdown-notebooks

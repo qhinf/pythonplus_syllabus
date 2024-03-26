@@ -1,6 +1,20 @@
 # Les planning
 
-## Les 1: Online
+| Les  | Datum      | Hoe    | Onderwerp    |
+| ---- | ---------- | ------ | ------------ |
+| 1    | 02-04-2024 | Online | {ref}`les_1` |
+| 2    | 09-04-2024 | Fysiek | {ref}`les_2` |
+| 3    | 16-04-2024 | Online | {ref}`les_3` |
+| 4    | 23-04-2024 | Fysiek | {ref}`les_4` |
+| 5    | 14-05-2024 | Online | {ref}`les_5` |
+| 6    | 21-05-2024 | Fysiek | {ref}`les_6` |
+| 7    | 28-05-2024 | Online | {ref}`les_7` |
+
+
+
+(les_1)=
+
+## Les 1: De start - je gereedschappen
 
 In de eerste week van deze module starten we samen met een korte kennismaking en bespreken we wat we gaan leren en ook hoe we dat gaan doen. Daarna gaan we aan meteen aan de slag met de professionele gereedschappen.
 
@@ -24,9 +38,16 @@ In de eerste week van deze module starten we samen met een korte kennismaking en
 
 ### Huiswerk
 
-Maak de opdracht aan het einde van het hoofdstuk {doc}`Inspiratie`. Zorg dat je deze opdracht vóór les 2 af hebt.
+Maak de opdracht aan het einde van het hoofdstuk {ref}`hoofdstuk_inspiratie`. Zorg dat je deze opdracht vóór les 2 af hebt.
 
-## Les 2: Fysiek
+(les_2)=
+
+## Les 2: Je project en kwaliteit van code
+
+### Wat heb je nodig tijdens de les
+
+- Je huiswerk (zie {ref}`huiswerk_les_1` )
+- Je uitwerking van je eindopdracht voor Basis van Programmeren met Python. Je gaat tijdens de les hiermee aan de slag. Dus zorg dat je deze binnen digitaal handbereik hebt.
 
 ### Tijdens de les
 
@@ -41,7 +62,9 @@ Maak de opdracht aan het einde van het hoofdstuk {doc}`Inspiratie`. Zorg dat je 
 - Weet je hoe leesbare code eruit ziet.
 - Heb je een start gemaakt met je project.
 
-## Les 3: Online
+(les_3)=
+
+## Les 3: Debugging
 
 ### Tijdens de les
 
@@ -53,7 +76,9 @@ Maak de opdracht aan het einde van het hoofdstuk {doc}`Inspiratie`. Zorg dat je 
 
 Denk er aan regelmatig een commit en push van je werk te doen, zodat de docent kan zien wat je hebt gedaan en je snel kan helpen, wanneer je tegen een probleem aanloopt.
 
-## Les 4: Fysiek
+(les_4)=
+
+## Les 4: Structuur van je project
 
 ### Tijdens de les
 
@@ -61,14 +86,18 @@ Denk er aan regelmatig een commit en push van je werk te doen, zodat de docent k
 - Bij genoeg tijd: Extra demonstratie Git-gebruik.
 - Tijd voor werken aan je project en individuele voortgangsgesprekken.
 
-## Les 5: Online
+(les_5)=
+
+## Les 5: Extra documenten
 
 ### Tijdens de les
 
 - Inhoudelijk: tips voor goede leesbaarheid software (Readme.md, comments e.d.)
 - Tijd voor werken aan je project en individuele voortgangsgesprekken.
 
-## Les 6: Fysiek
+(les_6)=
+
+## Les 6: Strijden
 
 ### Tijdens de les
 
@@ -76,7 +105,10 @@ Denk er aan regelmatig een commit en push van je werk te doen, zodat de docent k
 - Bij duo’s vragen naar taakverdeling, samenwerking en leermomenten.
 - Lees de handleidingen in de bijlagen nog eens door en check of er nog waardevolle tips in staan.
 
-## Les 7: Online
+(les_7)=
+
+## Les 7: Nog harder strijden
+
 1.	Inhoudelijk: herhaling hoe je je eindopdracht inlevert. Tips voor het checken van je eindopdracht aan de hand van het beoordelingsformulier:
 	a.	let op leesbaarheid d.m.v. comments, Readme.md, kleine functies, namegiving van je variabelen e.d.
 	b.	Zorg voor een requirements.txt

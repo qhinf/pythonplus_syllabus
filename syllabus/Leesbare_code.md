@@ -1,4 +1,4 @@
-# Leesbare code
+# Leesbare code schrijven
 
 ## PEP8 Guidelines
 

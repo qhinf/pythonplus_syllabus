@@ -32,11 +32,32 @@ Waar staan de bestanden? Op de site van GitHub en op je computer. Met git-comman
 
 ## Eerst PyCharm, dan Git
 
-Voor dit deel heb je al een Git-account nodig en heb je ook de `git`-gereedschappen geïnstalleerd op je laptop.
+Voor dit deel heb je al een Git-account nodig en heb je ook de `git`-gereedschappen geïnstalleerd op je laptop. Wanneer de `git`-gereedschappen niet op je laptop staan, dan zal PyCharm hier vanzelf melding van maken en ze voor je installeren. Dit neemt wat tijd in beslag.
 
-1. Maak een nieuw project aan zoals uitgelegd in {doc}`Bijlage_2.
-2. **TODO**
+1. Maak een nieuw project aan zoals uitgelegd in {doc}`Bijlage_nieuwproject`.
+2. Klik op _Version Control_
+3. Klik op _Share Project On_
+4. Klik op *Github*
+5. Geef de repository een herkenbare en duidelijke naam.<br>Kies voor *private*<br>Remote laat je staan zoals het is
+   Geef bij *Description* een korte beschrijving van je project.<br>Klik op **Share**
+6. Je krijgt een nieuw venster te zien met 'Add Files For Initial Commit' als titel.<br>Klik op *Add*
+7. Als het goed is krijg je nu een melding 'Succesfully shared project on GitHub'.
+
+Neem nu maar eens kijkje in je GitHub via je browser. Je ziet nu je kersverse Python project, gemaakt in PyCharm, in je GitHub staan.
 
 ## Code commit en push
 
-**TODO**
+Stel dat je een stuk code hebt afgeschreven. De code werkt en heeft een deel van de functionaliteit van je project afgerond. Of je bent gewoon even klaar met werken en wil stoppen. Dan is het verstandig om je code met GitHub te synchroniseren.
+
+1. Sla eerst alle bestanden op met de toetscombinatie Ctrl-S
+2. Klik in de linkerbalk van PyCharm op het icoontje dat eruit ziet als een lijntje met een bolletje.
+3. Je ziet nu een overzicht van welke bestanden gewijzigd zijn ten opzichte van de vorige keer dat je een synchronisatie hebt uitgevoerd. Deze bestanden moet je eerst 'committen'. Dit doe je door alle gewijzigde bestanden te selecteren. Dit kun je handig doen door het hokje links naast *Changes* aan te vinken. 
+4. Elke commit moet een boodschap bevatten. In die boodschap schrijf je kort wat er gewijzigd is. Bijvoorbeeld iets als: "De gameloop aangepast zodat audio op de achtergrond afspeelt" of "een bug met het besturen van Mario met de pijltjestoetsen verholpen".<br>
+5. Klik op *Commit and Push*
+6. Je krijgt een nieuw venster te zien. Klik hier op weer op *Push*
+
+Neem nu maar eens kijkje in je repo op GitHub. Dan zie je dat je zojuist geschreven code in je repo op GitHub staat. Handig!
+
+:::{Tip}
+Wanneer je een deel van je code 'af' hebt of wanneer je stopt met werken voor deze dag, doe een *Commit & Push*! Zo raak je je code niet zo snel kwijt en hoef je plotseling een week werk te synchroniseren wanneer je docent {{ docent }} weer eens naar je code wil kijken 😉
+:::
