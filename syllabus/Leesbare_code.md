@@ -214,8 +214,8 @@ Herschrijf deze commentaren als volgt:
 ```python
 # alleen even getallen
 for i in range(2,20, 2):
-		# i zou gecontroleerd zijn door verifieer()
     if verifieer(i):
+        # i zou gecontroleerd zijn door verifieer()
         doe_iets(x)
 ```
 
