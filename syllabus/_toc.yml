@@ -4,17 +4,26 @@
 
 format: jb-book
 root: index
-options:
+parts:
+- caption: Organisatie
+  numbered: false
+  chapters:
+    - file: Lesplanning
+    - file: eindopdracht
+- caption: Lesmateriaal
   numbered: 2
-chapters:
-- file: Lesplanning
-- file: inspiratie
-- file: Leesbare_code
-- file: Debuggen
-- file: technieken
-- file: structuur
-- file: eindopdracht
-- file: Bijlage_Installeren
-- file: Bijlage_nieuwproject
-- file: Bijlage_Github_en_Pycharm
-- file: Bijlage_requirements
+  chapters:
+    - file: inspiratie
+    - file: Leesbare_code
+    - file: Debuggen
+    - file: technieken
+    - file: structuur
+- caption: Bijlages
+  numbered: false
+  chapters:
+    - file: Bijlage_Installeren
+    - file: Bijlage_nieuwproject
+    - file: Bijlage_Github_en_Pycharm
+    - file: Bijlage_requirements
+
+
