@@ -83,6 +83,7 @@ Denk er aan regelmatig een commit en push van je werk te doen, zodat de docent k
 ### Tijdens de les
 
 - Inhoudelijk: Tips voor het gebruik van files, functies en datamanagement.
+- Opdracht {ref}`bestandsstructuur`.
 - Bij genoeg tijd: Extra demonstratie Git-gebruik.
 - Tijd voor werken aan je project en individuele voortgangsgesprekken.
 

@@ -1,16 +1,32 @@
 (hoofdstuk_structuur)=
 
-# Professionele structuur geven
+# Professionele uitstraling geven
 
-:::{exercise}
+(bestandsstructuur)=
 
-Kijken bij grote opensource projecten
+## Bestandsstructuur
+
+Wanneer je net begint met programmeren, dan zijn je codebestanden vaak niet langer dan 100 tot 200 regels code. Dat past nog prima in één enkel bestand en is nog overzichtelijk ook. Wanneer je een groter project gaat schrijven, dan neemt het aantal regels code toe. Om dit overzichtelijk te houden, is het verstandig om je code over verschillende bestanden te verdelen. Stel dat je een applicatie maakt, die gebruik maakt van een database. Dan is het een verstandig idee om alle code, die voor de communicatie met de database-server zorgt, in een apart `.py`-bestand te zetten. 
+
+
+
+Wanneer je bijvoorbeeld een game programmeert of een AI traint, dan heb je ook ondersteunenden bestanden nodig. Zoals afbeeldingen of templates. Deze bestanden zul je ook bereikbaar moeten hebben voor je code. Om nu alles in één map te gooien en zo een grote vergaarbak met 30 bestanden te hebben is onoverzichtelijk. En dat kan weer zorgen voor fouten in je code. Dus het hebben van een overzichtelijke bestandsstructuur is belangrijk voor de kwaliteit van je code. Deze structuur laat je terugkomen in je Git-repo. Maar hoe ziet een goeie bestandsstructuur er nu uit? Daar ga je in de onderstaande opdracht achter komen.
+
+:::{exercise} Projectstructuur
+
+**Doel**: Deze opdracht helpt je begrijpen hoe bestanden en mappen georganiseerd zijn binnen verschillende open source Python projecten.
+
+1. Kies een project uit de lijst {ref}`projecten_lijst`
+1. Verken de structuur van het project op GitHub. Noteer hoe de mappen en bestanden zijn georganiseerd, welke soorten bestanden er zijn, en wat hun functies lijken te zijn (bijvoorbeeld: broncode, documentatie, tests, configuratiebestanden, ...)
+1. Maak een visuele representatie (zoals een mindmap of een diagram) van de projectstructuur
+1. Schrijf een kort verslag waarin je de projectstructuur beschrijft en specifieke kenmerken benoemt zoals de aanwezigheid van een `README`, `LICENSE`, `.gitignore`, en `setup.py` bestanden. Zet je visuele representatie van de projectstructuur in dit verslag.
+1. Zet je verslag (inclusief visuele representatie) in je GitHub-repo voor dit vak.
 
 :::
 
-## Readme.md
+(projecten_lijst)=
 
-## Professionele projecten in Python
+### Professionele projecten in Python
 
 | Naam          | Wat is het      | Omschrijving                                                 | Link                                                         |
 | ------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -27,3 +43,5 @@ Kijken bij grote opensource projecten
 | Deluge        | App             | Deluge is een lichtgewicht, Free Software, cross-platform BitTorrent-client. Het biedt een rijke set aan functies, is volledig gratis en zonder advertenties. | [Deluge GitHub](https://github.com/deluge-torrent/deluge)    |
 | PySolFC       | Game            | PySolFC is een verzameling van meer dan 1000 solitaire kaartspellen. Het is een fork van het originele PySol Solitaire. | [PySolFC GitHub](https://github.com/shlomif/PySolFC)         |
 | Frets of Fire | Game            | Frets on Fire is een muziek-/ritmegame waarin spelers een gitaarcontroller of het toetsenbord gebruiken om muziek te spelen. Het doel is om noten te spelen die op het scherm verschijnen en zo muziektracks succesvol uit te voeren. | [Frets on Fire GitHub](https://github.com/skyostil/fretsonfire) |
+
+## Readme.md
