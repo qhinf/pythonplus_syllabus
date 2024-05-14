@@ -44,9 +44,9 @@ Wanneer je bijvoorbeeld een game programmeert of een AI traint, dan heb je ook o
 | PySolFC       | Game            | PySolFC is een verzameling van meer dan 1000 solitaire kaartspellen. Het is een fork van het originele PySol Solitaire. | [PySolFC GitHub](https://github.com/shlomif/PySolFC)         |
 | Frets on Fire | Game            | Frets on Fire is een muziek-/ritmegame waarin spelers een gitaarcontroller of het toetsenbord gebruiken om muziek te spelen. Het doel is om noten te spelen die op het scherm verschijnen en zo muziektracks succesvol uit te voeren. | [Frets on Fire GitHub](https://github.com/skyostil/fretsonfire) |
 
-## Een goede README.md?
+## Een goede README
 
-Als je een project begint in Python, is een van de eerste dingen die je moet doen het maken van een README.md-bestand. Dit bestand helpt anderen (en jezelf) om snel te begrijpen waar jouw project over gaat, hoe ze het kunnen installeren, gebruiken en eraan kunnen bijdragen. Hier zijn enkele stappen en tips om een effectieve README.md te schrijven
+Als je een project begint in Python, is een van de eerste dingen die je moet doen het maken van een README.md-bestand. Dit bestand helpt anderen (en jezelf) om snel te begrijpen waar jouw project over gaat, hoe ze het kunnen installeren, gebruiken en eraan kunnen bijdragen. Hier zijn enkele stappen en tips om een effectieve README.md te schrijven. Je schrijft je README.md in een opmaak, die Markdown genoemd wordt. 
 
 ### 1. Titel en Beschrijving
 
