@@ -84,7 +84,7 @@ In dit gedeelte leg je uit hoe anderen jouw project kunnen installeren. Zorg erv
 ````markdown
 ## Installatie
 
-1. Clone dit repository naar je lokale machine:
+1. Clone deze repository naar je lokale machine:
     ```bash
     git clone https://github.com/jouwgebruikersnaam/supercool-python-project.git
 ```
@@ -143,7 +143,7 @@ Moedig anderen aan om bij te dragen aan je project. Leg uit hoe ze bugmeldingen 
 
 Bijdragen zijn altijd welkom! Volg deze stappen om bij te dragen:
 
-1. Fork dit repository.
+1. Fork deze repository.
 2. Maak een nieuwe branch voor jouw feature of bugfix:
     ```bash
     git checkout -b feature/nieuwe-feature
