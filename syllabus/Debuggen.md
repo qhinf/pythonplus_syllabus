@@ -1,12 +1,12 @@
-# Het Debuggen van je Programma
+# Het debuggen van je programma
 
 Programmeren omvat het schrijven van computer code. En daarbij maak je wel eens fouten. Het is nog een heel karwei om die fouten te vinden. Het vinden van fouten in je programma heet *debuggen* en is een essentieel onderdeel van programmeren. Iedereen maakt dus fouten en bugs zijn onvermijdelijk, zelfs voor de beste programmeurs. In dit hoofdstuk gaan we het hebben over wat debuggen is, waar het woord vandaan komt, en hoe je verschillende technieken kunt gebruiken om je Python-programma's foutvrij te maken. We richten ons op drie belangrijke technieken: debuggen met print-statements, het gebruik van breakpoints en stepping in PyCharm, en het analyseren van je programma met een Python Profiler.
 
-## De Herkomst van het Woord Debuggen
+## De herkomst van het woord
 
 Het woord "debuggen" komt oorspronkelijk uit de vroege dagen van de informatica. In de jaren '40, toen computers nog enorm groot en complex waren, vond een beroemd incident plaats. Een team van ingenieurs ontdekte een echte mot (bug in het Engels) die vastzat in een van de relais van de Mark II-computer. Deze mot veroorzaakte een storing in de machine, en toen ze de mot verwijderden, noemden ze dit "debuggen". Sindsdien is de term blijven hangen en verwijst het naar het opsporen en verhelpen van fouten in computerprogramma's. De juistheid van het verhaal staat nog ter discussie, maar het verhaal geeft wel mooi weer dat een bug op een rare of onverwachte plaats kan zitten.
 
-## Debuggen door Print-Statements
+## Debuggen door print-statements
 
 Een van de eenvoudigste manieren om je programma te debuggen is door gebruik te maken van `print`-statements. Je voegt aan je code `print`-statements toe, die informatie over de status van je programma naar de console printen. Je kunt zo zien in wat voor toestand het programma zich bevindt. Laten we een voorbeeld bekijken:
 
@@ -25,11 +25,11 @@ In dit voorbeeld gebruiken we `print`-statements om te zien wat de waarden van `
 
 Hoewel `print`-statements nuttig zijn, kunnen ze je programma ook rommelig maken en zijn ze niet altijd de beste manier om complexe problemen op te lossen. Wanneer je de bug gevonden hebt, kan het veel werk zijn om de `print`-statements weer te verwijderen. Om het nog ingewikkelder te maken, is de waarschijnlijkheid dat je met het verwijderen van deze statements weer nieuwe bugs introduceert hoger dan je lief is. Gelukkig is er een meer geavanceerdere vorm van debuggen. Het gebruik van Breakpoints en Stepping.
 
-## Het Gebruik van Breakpoints en Stepping in PyCharm
+## Breakpoints in PyCharm
 
 PyCharm is dus niet alleen handig om al je Python-files bij elkaar te houden, maar ook erg geschikt om te debuggen. Sterker nog, een van de belangrijkste functies van PyCharm is de ingebouwde debugger. Hiermee kun je breakpoints instellen en door je code stappen om te zien wat er gebeurt. Wat breakpoints zijn en hoe je hiermee om gaat, lees je hieronder.
 
-### Breakpoints Instellen
+### Breakpoints instellen
 
 Een breakpoint is een marker die je op een regel code plaatst waar je wilt dat je programma stopt met uitvoeren. Zeg maar een rood stoplicht. Dit geeft je de mogelijkheid om de status van je programma op dat punt te inspecteren. Om een breakpoint in PyCharm in te stellen, klik je eenvoudigweg in de linkermarge naast de regel waar je wilt stoppen.
 
@@ -56,9 +56,9 @@ Je ziet in het *Variables*-deel welke variabelen welke waarde hebben op dat mome
 
 In de volgende video zie je hoe de code van `vermenigvuldig_getallen` zich gedraagt in de debugger van PyCharm. #TODO
 
-## Een Python Profiler om het Gedrag van je Programma te Analyseren
+## Analyse van het gedrag van je programma
 
-Naast het debuggen met print-statements en breakpoints, is het soms nodig om dieper te graven in de prestaties van je programma. Een profiler helpt je hierbij door te meten hoeveel tijd je code in beslag neemt en hoeveel geheugen het gebruikt.
+Naast het debuggen met print-statements en breakpoints, is het soms nodig om dieper te graven in de prestaties van je programma. Een **profiler** helpt je hierbij door te meten hoeveel tijd je code in beslag neemt en hoeveel geheugen het gebruikt.
 
 Een populaire profiler voor Python is cProfile. Deze profiler wordt meegeleverd met de standaard Python-bibliotheek en is eenvoudig te gebruiken.
 
@@ -103,7 +103,7 @@ Wanneer je dit programma uitvoert, geeft cProfile je het volgende rapport:
 
 Je ziet hier gedetailleerd hoeveel tijd elke functie in beslag neemt en hoe vaak elke functie is aangeroepen. Hiermee kun je bijvoorbeeld stukken code vinden, die onnodig vaak aangeroepen worden, zodat je vervolgens met de debugger weer kan kijken hoe je je code kan optimaliseren.
 
-### Geheugengebruik Analyseren
+### Geheugengebruik analyseren
 
 Naast tijdsprofielen is het soms ook belangrijk om te weten hoeveel geheugen je programma gebruikt. Zeker wanneer je met grote datasets werkt, bijvoorbeeld bij een AI-toepassing, dan kan inzicht in het geheugengebruik van je programma ervoor zorgen of je je programma kan draaien of niet. Een handige tool hiervoor is `memory_profiler`. Deze tool geeft je inzicht in het geheugengebruik van je programma, wat vooral nuttig is bij het werken met grote datasets of geheugenintensieve taken.
 
