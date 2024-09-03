@@ -1,8 +1,6 @@
-# Debuggen
+# Het Debuggen van je Programma
 
-# Hoofdstuk: Het Debuggen van je Programma
-
-Debuggen is een essentieel onderdeel van programmeren. Iedereen maakt fouten en bugs zijn onvermijdelijk, zelfs voor de beste programmeurs. In dit hoofdstuk gaan we het hebben over wat debuggen is, waar het woord vandaan komt, en hoe je verschillende technieken kunt gebruiken om je Python-programma's foutvrij te maken. We richten ons op drie belangrijke technieken: debuggen met print-statements, het gebruik van breakpoints en stepping in PyCharm, en het analyseren van je programma met een Python Profiler.
+Programmeren omvat het schrijven van computer code. En daarbij maak je wel eens fouten. Het is nog een heel karwei om die fouten te vinden. Het vinden van fouten in je programma heet *debuggen* en is een essentieel onderdeel van programmeren. Iedereen maakt dus fouten en bugs zijn onvermijdelijk, zelfs voor de beste programmeurs. In dit hoofdstuk gaan we het hebben over wat debuggen is, waar het woord vandaan komt, en hoe je verschillende technieken kunt gebruiken om je Python-programma's foutvrij te maken. We richten ons op drie belangrijke technieken: debuggen met print-statements, het gebruik van breakpoints en stepping in PyCharm, en het analyseren van je programma met een Python Profiler.
 
 ## De Herkomst van het Woord Debuggen
 
