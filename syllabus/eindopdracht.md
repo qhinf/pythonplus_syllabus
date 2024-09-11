@@ -5,7 +5,7 @@
 Je hebt aan het begin van de cursus een keuze gemaakt wat je wil maken. Dit kan van alles zijn, zolang je het maar in de programmeertaal Python schrijft, versie 3.5 of hoger. Het doel van je project is dat je leert om een groter programma te schrijven in Python. Er komen nogal wat extra uitdagingen kijken bij het schrijven van een lang programma. Hieronder krijg je te zien waar op gelet wordt bij het beoordelen van je werk.
 
 ## Beoordeling
-De beoordelingscriteria worden uiterlijk 11 september bekend gemaakt.
+De beoordelingscriteria worden uiterlijk 18 september bekend gemaakt.
 
 ## Wat lever je in?
 
