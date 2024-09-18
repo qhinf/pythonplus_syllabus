@@ -2,13 +2,13 @@
 
 | Les  | Datum      | Hoe    | Onderwerp    |
 | ---- | ---------- | ------ | ------------ |
-| 1    | 02-04-2024 | Online | {ref}`les_1` |
-| 2    | 09-04-2024 | Fysiek | {ref}`les_2` |
-| 3    | 16-04-2024 | Online | {ref}`les_3` |
-| 4    | 23-04-2024 | Fysiek | {ref}`les_4` |
-| 5    | 14-05-2024 | Online | {ref}`les_5` |
-| 6    | 21-05-2024 | Fysiek | {ref}`les_6` |
-| 7    | 28-05-2024 | Online | {ref}`les_7` |
+| 1    | 28-08-2024 | Online | {ref}`les_1` |
+| 2    | 04-09-2024 | Fysiek | {ref}`les_2` |
+| 3    | 11-09-2024 | Online | {ref}`les_3` |
+| 4    | 18-09-2024 | Fysiek | {ref}`les_4` |
+| 5    | 25-09-2024 | Online | {ref}`les_5` |
+| 6    | 02-10-2024 | Fysiek | {ref}`les_6` |
+| 7    | 09-10-2024 | Online | {ref}`les_7` |
 
 
 
