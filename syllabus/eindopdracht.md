@@ -8,7 +8,7 @@ Je hebt aan het begin van de cursus een keuze gemaakt wat je wil maken. Dit kan 
 
 Je levert een zip-bestand van je Github repo aan in je Q-Highschoolportfolio. In dat zip-bestand staat de volledige directory-structuur van je project. Het is niet erg wanneer je niet weet hoe je dat moet doen, vraag dan even hulp van een medeleerling of de docent.
 
-:::{warning}Let op!
+:::{warning} 
 1. Geen zip-file van je project in de Q-Highschool portfolio is geen resultaat!
 2. Wel een zip-file, maar enorme verschillen tussen de zip-file en je Github-repo is ook geen resultaat!
 :::
@@ -17,13 +17,13 @@ Je levert een zip-bestand van je Github repo aan in je Q-Highschoolportfolio. In
 De **deadline** voor het inleveren van je product is **{{ deadline }}**, het _eerste_ inlevermoment. Je mag je eindproduct natuurlijk eerder inleveren. Mocht je nu in tijdsnood komen en het eerste inlevermoment niet halen, dan kun je uitstel aanvragen. Doe dit vóór {{ deadline_uitstel_aanvragen }} met een mailtje aan je {{ docent }}: _{{ docent_email }}_. Je krijgt dan uitstel tot {{ deadline_uitstel }}.
 
 ## Checklist voordat je inlevert
-- Zijn alle bestanden aanwezig?
-  - Je Python-code
-  - Alle ondersteunende bestanden (config-files, afbeeldingen, enz.)
-  - Een `README` in Markdown (.md)
-  - Installatie handleiding in de `README`
-  - Een `requirements.txt`
-- Heb je alle bestanden in je GitHub-repo gecommit en gepushed? 
+- [ ] Zijn alle bestanden aanwezig?
+  - [ ] Je Python-code
+  - [ ] Alle ondersteunende bestanden (config-files, afbeeldingen, enz.)
+  - [ ] Een `README` in Markdown (.md)
+  - [ ] Installatie handleiding in de `README`
+  - [ ] Een `requirements.txt`
+- [ ] Heb je alle bestanden in je GitHub-repo gecommit en gepushed? 
 
 ## Beoordeling
 
