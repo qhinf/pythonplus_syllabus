@@ -8,7 +8,7 @@
 | 4    | 16-04-2025 | Fysiek | {ref}`les_4` |
 | 5    | 07-05-2025 | Online | {ref}`les_5` |
 | 6    | 14-05-2025 | Fysiek | {ref}`les_6` |
-| 7    | 21-10-2025 | Online | {ref}`les_7` |
+| 7    | 21-05-2025 | Online | {ref}`les_7` |
 
 
 
