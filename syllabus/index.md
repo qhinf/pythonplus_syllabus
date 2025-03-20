@@ -1,6 +1,9 @@
 # Python+
 
-![Fat Python](assets/d5opepe-d6f86be4-ce81-430b-b75f-d2fba9d64169.jpg)
+```{figure} assets/retrogameartApythonsnake.png
+:width: 100%
+:align: center
+```
 
 Bij Python+ ga je aan de slag aan een groter Python-project. Groter dan dat je bij Basis van Programmeren met Python hebt gedaan. Wat je gaat maken, dat mag je helemaal zelf verzinnen. We gaan in deze module vooral kijken naar:
 
