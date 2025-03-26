@@ -25,13 +25,17 @@ In dit voorbeeld gebruiken we `print`-statements om te zien wat de waarden van `
 
 Hoewel `print`-statements nuttig zijn, kunnen ze je programma ook rommelig maken en zijn ze niet altijd de beste manier om complexe problemen op te lossen. Wanneer je de bug gevonden hebt, kan het veel werk zijn om de `print`-statements weer te verwijderen. Om het nog ingewikkelder te maken, is de waarschijnlijkheid dat je met het verwijderen van deze statements weer nieuwe bugs introduceert hoger dan je lief is. Gelukkig is er een meer geavanceerdere vorm van debuggen. Het gebruik van Breakpoints en Stepping.
 
-## Breakpoints in PyCharm
+## Breakpoints in Visual Studio Code
 
-PyCharm is dus niet alleen handig om al je Python-files bij elkaar te houden, maar ook erg geschikt om te debuggen. Sterker nog, een van de belangrijkste functies van PyCharm is de ingebouwde debugger. Hiermee kun je breakpoints instellen en door je code stappen om te zien wat er gebeurt. Wat breakpoints zijn en hoe je hiermee om gaat, lees je hieronder.
+Visual Studio Code is niet alleen geschikt om al je Python-bestanden overzichtelijk te beheren, maar ook erg handig om te debuggen. Een van de belangrijkste functies is de ingebouwde debugger. Hiermee kun je breakpoints instellen en door je code stappen om te zien wat er gebeurt. Wat breakpoints zijn en hoe je hiermee omgaat, lees je hieronder.
 
 ### Breakpoints instellen
 
-Een breakpoint is een marker die je op een regel code plaatst waar je wilt dat je programma stopt met uitvoeren. Zeg maar een rood stoplicht. Dit geeft je de mogelijkheid om de status van je programma op dat punt te inspecteren. Om een breakpoint in PyCharm in te stellen, klik je eenvoudigweg in de linkermarge naast de regel waar je wilt stoppen.
+Een breakpoint is een marker die je op een regel code plaatst waar je wilt dat je programma stopt met uitvoeren. Zie het als een rood stoplicht: op dat punt pauzeert je code en kun je precies inspecteren hoe de variabelen en functies zich gedragen.
+
+Om een breakpoint in Visual Studio Code in te stellen:
+	1.	**Open** het bestand waarin je de code wilt debuggen.
+	2.	Klik in de linkermarge naast de regel waar je wilt stoppen. Er verschijnt dan een rode stip, wat aangeeft dat je daar een breakpoint hebt gezet.
 
 ```python
 def vermenigvuldig_getallen(a, b):
@@ -42,19 +46,25 @@ product = vermenigvuldig_getallen(6, 7)
 print(f"Hoofdprogramma: product = {product}")
 ```
 
-Stel dat we een breakpoint willen instellen op de regel `resultaat = a * b`. Klik in de linkermarge naast deze regel. Wanneer je nu je programma uitvoert in de debug-modus, zal het stoppen bij dit breakpoint.
+Stel dat je een breakpoint wilt instellen op de regel `resultaat = a * b`. Klik in de linkermarge naast deze regel. Als je nu je programma uitvoert in de debug-modus van Visual Studio Code, zal het uitvoeren stoppen bij dit breakpoint.
+
+### Debug-modus starten
+
+Om te debuggen in Visual Studio Code:
+1.	Ga naar de **Run and Debug**-sidebar (links in de editor, het play-icoontje met een kevertje).
+2.	Klik op de **Play**-knop (*Start Debugging*) of kies de juiste configuratie als je meerdere debug-instellingen hebt.
+3.	Je programma start, en zodra het breakpoint wordt bereikt, pauzeert de uitvoer automatisch.
 
 ### Stepping
 
-Wanneer je programma stopt bij een breakpoint, kun je gebruik maken van stepping om je code regel voor regel uit te voeren. Dit helpt je te begrijpen hoe je programma werkt en waar het eventueel misgaat.
+Wanneer je programma stopt bij een breakpoint, kun je gebruik maken van stepping om je code regel voor regel uit te voeren. Zo kun je precies zien welke stappen je code doorloopt en waar het eventueel misgaat.
+- Step Over: Voert de huidige regel uit en gaat vervolgens naar de volgende regel in dezelfde functie. (*F10 op Windows/Linux, Fn+F10 op macOS*)
+- Step Into: Gaat de functie binnen als de huidige regel een functieaanroep is. Zo kun je de binnenkant van een functie stap voor stap volgen. (*F11 op Windows/Linux, Fn+F11 op macOS*)
+- Step Out: Voert de resterende regels van de huidige functie in één keer uit en springt terug naar de regel waar de functie werd aangeroepen. (*Shift+F11 op Windows/Linux, Shift+Fn+F11 op macOS*)
 
-- **Step Over (F8)**: Voert de huidige regel uit en gaat naar de volgende regel in dezelfde functie.
-- **Step Into (F7)**: Gaat de functie binnen als de huidige regel een functieaanroep is.
-- **Step Out (Shift+F8)**: Voert de rest van de huidige functie uit en gaat terug naar de aanroepende functie.
+In het **Variables**-venster (rechts of links in beeld, afhankelijk van je layout) kun je zien welke variabelen op dat moment in je code aanwezig zijn en welke waarden ze hebben. Dit is onmisbaar bij het opsporen en oplossen van bugs.
 
-Je ziet in het *Variables*-deel welke variabelen welke waarde hebben op dat moment van uitvoer. Dit zorgt ervoor dat je heel gedetailleerd kan nagaan hoe je code werkt. En dit helpt je weer met het opsporen en oplossen van bugs.
-
-In de volgende video zie je hoe de code van `vermenigvuldig_getallen` zich gedraagt in de debugger van PyCharm. #TODO
+Meer weten? Voor meer informatie over debugging in Visual Studio Code en alle beschikbare opties (zoals conditional breakpoints en exception breakpoints), bekijk de [officiële documentatie van Visual Studio Code](https://code.visualstudio.com/docs/editor/debugging).
 
 ## Analyse van het gedrag van je programma
 

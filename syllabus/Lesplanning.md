@@ -24,17 +24,17 @@ In de eerste week van deze module starten we samen met een korte kennismaking en
 - De syllabus tot hier
 - Hoe ziet de module eruit?
 - Hoe breng je deze module tot een goed einde?
-- Installeren Python en PyCharm
+- Installeren Python en Visual Studio Code
 - Je eerste Git-repository aanmaken
-- Je Git-repo koppelen aan PyCharm
+- Je Git-repo koppelen aan Visual Studio Code
 - En je bent klaar om code te schrijven en publiceren!
 
 ### Aan het einde van de les
 
-- Heb je Python en PyCharm geïnstalleerd op je laptop
+- Heb je Python en Visual Studio Code geïnstalleerd op je laptop
 - Heb je een GitHub-account
 - Heb je een Git-repo gemaakt en deze doorgegeven aan de docent
-- Heb je je Git-repo gekoppeld aan PyCharm
+- Heb je je Git-repo gekoppeld aan Visual Studio Code
 
 ### Huiswerk
 
@@ -58,7 +58,7 @@ Maak de opdracht aan het einde van het hoofdstuk {ref}`hoofdstuk_inspiratie`. Zo
 
 ### Na de les
 
-- Weet je hoe je Python-code volgens de PEP8 guidelines moet schrijven en hoe je dit in PyCharm doet.
+- Weet je hoe je Python-code volgens de PEP8 guidelines moet schrijven en hoe je dit in Visual Studio Code doet.
 - Weet je hoe leesbare code eruit ziet.
 - Heb je een start gemaakt met je project.
 
