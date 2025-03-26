@@ -1,4 +1,7 @@
-# Bijlage: GitHub en PyCharm
+# ~~Bijlage: GitHub en PyCharm~~
+
+**DEZE MOET NOG UITGEWERKT WORDEN
+**
 
 In deze cursus is het verplicht Git te gebruiken. Hiermee houd je online de versies van je software bij. Ook kunnen wij als begeleiders makkelijk met je meekijken en je vorderingen zien. Uiteindelijk moet je een zip-file van je software vanuit GitHub maken en deze inleveren in je Q-highschool portfolio/inleverbakje. Deze handleiding bestaat uit twee delen. Je kunt kiezen om deel 1 te volgen of deel 2 te volgen. Het resultaat van de instructie is bij allebei hetzelfde. In de les gebruiken we deel 1 van de instructie.
 
