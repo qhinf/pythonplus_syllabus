@@ -30,10 +30,10 @@ De **deadline** voor het inleveren van je product is **{{ deadline }}**, het _ee
 | Criterium | Omschrijving | Maximale score |
 |--|--|--|
 | [Specificatie](les_1) | Er is een MoSCoW-document aanwezig en bevat een realistische, zinvolle specificatie van je programma. | 20 pt |
-| Implementatie | Je hebt de *Must*-onderdelen van je MoSCoW-document uitgeprogrammeerd en in je programma zitten | 25 pt | 
-| [Code leesbaarheid](les_2) | Je code voldoet volledig aan de PEP8 guidelines</br>Je maakt gebruik van zinnige variabele namen</br>Je code is voorzien van zinvolle commentaren | 10 pt |
-| [Code correctheid](les_3) | Er zitten geen syntax errors of enorme bugs in je code | 20 pt |
-| [Project structuur](les_4) | Je code heb je in verschillende Python-bestanden op logische wijze georganiseerd. Inclusief steunbestanden, zoals afbeeldingen. Je hebt een *requirements.txt*  in je repo staan, zodat andere programmeurs gemakkelijk je code kunnen  draaien. | 15 pt|
+| Implementatie | Je hebt de *Must*-onderdelen van je MoSCoW-document uitgeprogrammeerd en in je programma zitten | 20 pt | 
+| [Code leesbaarheid](les_2) | Je code voldoet volledig aan de PEP8 guidelines</br>Je maakt gebruik van zinnige variabele namen</br>Je code is voorzien van zinvolle commentaren | 30 pt |
+| [Code correctheid](les_3) | Er zitten geen syntax errors of enorme bugs in je code | 10 pt |
+| [Project structuur](les_4) | Je code heb je in verschillende Python-bestanden op logische wijze georganiseerd. Inclusief steunbestanden, zoals afbeeldingen. Je hebt een *requirements.txt*  in je repo staan, zodat andere programmeurs gemakkelijk je code kunnen  draaien. | 10 pt|
 | [GitHub](les_1) | Je hebt de link naar je Github-repo tijdens de les met de docent gedeeld en op  het moment van inleveren is je code volledig gesynchroniseerd met de code, die je met de zip-file ingeleverd hebt. | 10 pt |
 
 Wanneer je werk beoordeeld wordt, dan volgt de docent de door jou geschreven installatie-handleiding. 
@@ -41,9 +41,7 @@ Wanneer je werk beoordeeld wordt, dan volgt de docent de door jou geschreven ins
 Je kunt een totaal van 100 punten behalen voor je eindopdracht. Je eindcijfer voor de module is het aantal punten gedeeld door 10.
 
 ## Code kopieren
-Hier hadden we een stuk tekst staan over het kopiëren van code. Wat mag wel en wat mag niet. Voor deze editie (2425-4) van Python Plus heb je juist zoveel mogelijk met ChatGPT gewerkt. Dit was een module waarin *vibe coding* niet alleen toegestaan was, maar ook opgedragen was. Mocht je toch nog code van een andere plek dan een AI-programma gehaald hebben, dan is het nog steeds wel nodig om een goeie bronvermelding te plaatsen. 
-
-Je mag externe bronnen gebruiken als hulp bij het maken van je programma, want daar kun je veel van leren. Je mag ook stukjes code overnemen, maar die moet je wel uitgebreid van commentaar voorzien om uit te leggen wat die code doet (minstens 1 regel commentaar per regel code!) en in commentaar de bron vermelden. De bron vermelden betekent dat je een link naar de exacte bron toevoegt, dus "uit een video op YouTube" is geen bronvermelding! Een link naar de code is minimaal wat we verwachten. Indien de code via persoonlijke communicatie gedeeld, vermeld dan minstens de naam van de persoon en jouw relatie tot die persoon. Gebruik `# BRON:` om duidelijk aan te geven dat dit een bronvermelding is en zodat wij het makkelijk terug kunnen vinden. Bijvoorbeeld:
+Je mag externe bronnen gebruiken als hulp bij het maken van je spel, want daar kun je veel van leren. Je mag ook stukjes code overnemen, maar die moet je wel uitgebreid van commentaar voorzien om uit te leggen wat die code doet (minstens 1 regel commentaar per regel code!) en in commentaar de bron vermelden. De bron vermelden betekent dat je een link naar de exacte bron toevoegt, dus "uit een video op YouTube" is geen bronvermelding! Een link naar de code is minimaal wat we verwachten. Indien de code via persoonlijke communicatie gedeeld, vermeld dan minstens de naam van de persoon en jouw relatie tot die persoon. Gebruik `# BRON:` om duidelijk aan te geven dat dit een bronvermelding is en zodat wij het makkelijk terug kunnen vinden. Bijvoorbeeld:
 
 ```python
 # BRON: https://rosettacode.org/wiki/Reverse_words_in_a_string#Python
@@ -59,6 +57,9 @@ for line in text.split("\n"):
     print(" ".join(line.split()[::-1]))
 ```
 
+Ook code uit ChatGPT en andere chatbots dien je van een bronvermelding te voorzien. Zet dan ook de prompt die je hebt gebruikt in je commentaar.
+
+Het is uitdrukkelijk niet de bedoeling dat je grote blokken code of het hele spel kopieert. In dat geval zien we het als plagiaat en zullen we daar ook naar handelen. Voor diegenen die dit ingewikkeld vinden: meer dan 5 regels code is een groot blok.
 
 
 
