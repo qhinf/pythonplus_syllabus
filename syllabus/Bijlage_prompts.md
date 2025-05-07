@@ -9,7 +9,7 @@ Hieronder staat een collectie van prompts, die je kan gebruiken voor deze module
     De lijst van ideeën omvat de naam van het idee, een korte omschrijving, het niveau en het soort. je hoeft geen uitgebreide uitleg te geven. Je start met de vraag om de leerling naar hun hobbies en passies te vragen.
 
 ## MoSCoW document
-Voor het maken van je MoSCoW document is een chatbot beschikbaar. Deze kun je (hier)[https://chatgpt.com/g/g-67e40dfcec088191bab4348ec436d95b-python-plus-moscow-bot] vinden.
+Voor het maken van je MoSCoW document is een chatbot beschikbaar. Deze kun je [hier](https://chatgpt.com/g/g-67e40dfcec088191bab4348ec436d95b-python-plus-moscow-bot) vinden. Je hebt hiervoor wel een (gratis) ChatGPT-account nodig. 
 
 ## Eerste code schrijven
     Ik wil een programma in Python maken. Geef me een projectstructuur voor een git repo en de eerste code. Verwerk de naam van de app in de code. Onderbouw je keuzes. Ik heb een MoSCoWdocument. Vraag mij eerst naar de naam van mijn app. Vraag mij daarna naar de Must Have's en ga daarmee aan de slag.
