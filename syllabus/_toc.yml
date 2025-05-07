@@ -23,7 +23,8 @@ parts:
   chapters:
     - file: Bijlage_Installeren
     - file: Bijlage_nieuwproject
-    - file: Bijlage_Github_en_Pycharm
+#    - file: Bijlage_Github_en_Pycharm
     - file: Bijlage_requirements
+    - file: Bijlage_prompts
 
 
