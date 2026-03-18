@@ -48,9 +48,9 @@ sphinx:
     # zaken die vaker terugkomen en bijvoorbeeld aangepast moeten worden voor
     # een volgende editie.
     myst_substitutions:
-      deadline: "--"
+      deadline: "donderdag 4 juni 2026, 16:00u"
       deadline_uitstel_aanvragen: "--"
-      deadline_uitstel: "--"
+      deadline_uitstel: "dinsdag 23 juni, 16:00u"
       docent: "Pieter van Engelen"
       docent_email: "p punt vanengelen apenstaartje quadraam punt nl"
 
