@@ -51,6 +51,10 @@ Maak deze opdracht in Word. Zet het Word-bestand in de git-repo van je project, 
 
 5. Optioneel: voor een goed ontwerp en efficiënter programmeerproces kan het lonen eens te verdiepen in Unified Modelling Language (UML). Dit is een ontwerptool voor het modelleren van je softwarearchitectuur (de opbouw), timingdiagrammen en nog veel meer. Je kunt hiervoor de tool PlantUML gebruiken.
 
+:::{admonition} Let op!
+Dit MoSCoW-document maak je in {ref}`markdown` (md) en plaats je in je Github-repo. Dan kan de docent het zien en hoef je eigenlijk niet meer na te denken over het inleveren.
+:::
+
 (moscow_voorbeeld)=
 
 ### Voorbeeld
@@ -81,6 +85,11 @@ Dit is een voorbeeld van een MoSCoW lijst voor het spelletje Mijnenveger in Pyth
 - **Multiplayer Modus:** De mogelijkheid om tegen anderen te spelen of een leaderboard met scores van andere spelers.
 - **Mobiele App Versie:** Het ontwikkelen van een mobiele versie van het spel voor smartphones en tablets.
 - **Thematisering:** Aanpassingen in het uiterlijk van het spel, zoals verschillende thema's of aanpasbare achtergronden.
+
+(markdown)=
+
+### Markdown
+Maak je uitwerkingen in een tekst-editor zoals Visual Studio Code. **Niet in Word**. Gebruik [Markdown](https://www.markdownguide.org/cheat-sheet/) om structuur te geven aan je document. Sla je bestand op met de extensie `.md`. Visual Studio Code weet dan meteen dat het Markdown is en zal je mogelijk allerlei vragen stellen om plugins te installeren. Advies: installeer deze plugins. Voor meer info over het bewerken van Markdown in Visual Studio Code kun je [hier](https://code.visualstudio.com/docs/languages/markdown) vinden.
 
 [^1]: Web: Flask, Django (hier komt misschien wat Javascript bij kijken
 
