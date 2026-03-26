@@ -36,7 +36,7 @@ MoSCoW is een afkorting die je helpt om taken of ideeën in je project te sorter
 
 ### Opdracht
 
-Maak deze opdracht in Word. Zet het Word-bestand in de git-repo van je project, zodat de docent {{ docent }} het kan lezen.
+Maak deze opdracht in Visual Studio Code. Maak een nieuw bestand aan in je project folder en noem dit bestand `moscow.md`. Zet dit bestand in de git-repo van je project, zodat de docent {{ docent }} het kan lezen. Onderaan deze pagina staat hoe je dit zo'n `md`-bestand vult met {ref}`markdown`.
 
 1. Schrijf alle ideeën, die je voor je project hebt op. <br>Wat moet het doen, hoe moet het eruit zien, hoe werkt het, wat gebeurt er allemaal etc.<br>Mocht je onzeker zijn over wat er in de lijst moet komen, bekijk dan dit {ref}`moscow_voorbeeld`.
 
