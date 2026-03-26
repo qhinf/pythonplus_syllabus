@@ -48,14 +48,14 @@ Dit is een vervolg op Basis van Programmeren. Je gaat verder met Python, maar nu
 | 4 | Structuur van je project |
 | 5 | Extra documenten |
 | 6 | Voortgangsgesprekken |
-| 7 | Eindopdracht inleveren |
+| 7 | Strijden |
 
 ---
 
 ## Eindopdracht
 
 - Eigen Python-project
-- Ingeleverd via Git
+- Ingeleverd via Git & Q-Highschool app
 - Beoordeeld op werking én kwaliteit
 
 Notes:
