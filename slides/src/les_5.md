@@ -32,7 +32,9 @@ Het visitekaartje van je project.
 
 ## Voorbeeld README
 
-```markdown
+<div style="font-size: 0.7em">
+
+````markdown
 # Mijn Spel
 
 Een eenvoudig raadspel in Python.
@@ -53,7 +55,9 @@ python main.py
 
 Raad het getal dat de computer heeft gekozen.
 Je krijgt feedback of je te hoog of te laag zit.
-```
+````
+
+</div>
 
 Notes:
 Laat een echte GitHub-pagina zien met een goede README als voorbeeld.
@@ -66,6 +70,8 @@ Laat een echte GitHub-pagina zien met een goede README als voorbeeld.
 
 ## Wanneer een comment?
 
+<div style="font-size: 0.7em">
+
 ```python
 # ❌ Overbodig – de code zegt het al
 getal = getal + 1  # tel 1 op bij getal
@@ -76,9 +82,13 @@ vorige_waarde = getal
 getal = getal + 1
 ```
 
+</div>
+
 ---
 
 ## Docstrings
+
+<div style="font-size: 0.7em">
 
 ```python
 def bereken_gemiddelde(cijfers: list) -> float:
@@ -93,6 +103,8 @@ def bereken_gemiddelde(cijfers: list) -> float:
     """
     return sum(cijfers) / len(cijfers)
 ```
+
+</div>
 
 Notes:
 Docstrings zijn zichtbaar in VS Code als je over een functie hovert.

@@ -15,7 +15,7 @@ Q-highschool / Les 3: Debugging
 
 ***
 
-## Wat is een bug? 🐛
+## Wat is een bug?
 
 Een fout in je code waardoor het programma niet doet wat jij wilt.
 
@@ -99,7 +99,7 @@ Veel mensen scrollen meteen omhoog. Wijzen op: lees van onder naar boven.
 
 ---
 
-## Techniek 4: Rubber duck debugging 🦆
+## Techniek 4: Rubber duck debugging
 
 Leg je code uit aan een denkbeeldige eend \
 (of aan iemand anders).
