@@ -18,6 +18,7 @@ De **deadline** voor het inleveren van je product is **{{ deadline }}**, het _ee
 
 ## Checklist voordat je inlevert
 - [ ] Zijn alle bestanden aanwezig?
+  - [ ] Je MoSCoW-document (in Markdown)
   - [ ] Je Python-code
   - [ ] Alle ondersteunende bestanden (config-files, afbeeldingen, enz.)
   - [ ] Een `README` in Markdown (.md)
@@ -41,7 +42,7 @@ Wanneer je werk beoordeeld wordt, dan volgt de docent de door jou geschreven ins
 Je kunt een totaal van 100 punten behalen voor je eindopdracht. Je eindcijfer voor de module is het aantal punten gedeeld door 10.
 
 ## Code kopieren
-Hier hadden we een stuk tekst staan over het kopiëren van code. Wat mag wel en wat mag niet. Voor deze editie (2425-4) van Python Plus heb je juist zoveel mogelijk met ChatGPT gewerkt. Dit was een module waarin *vibe coding* niet alleen toegestaan was, maar ook opgedragen was. Mocht je toch nog code van een andere plek dan een AI-programma gehaald hebben, dan is het nog steeds wel nodig om een goeie bronvermelding te plaatsen. 
+Hier hadden we een stuk tekst staan over het kopiëren van code. Wat mag wel en wat mag niet. Voor deze editie van Python Plus heb je juist zoveel als je wilde met ChatGPT gewerkt. Dit was een module waarin *vibe coding* niet alleen toegestaan was, maar ook opgedragen was. Mocht je toch nog code van een andere plek dan een AI-programma gehaald hebben, dan is het nog steeds wel nodig om een goeie bronvermelding te plaatsen. 
 
 Je mag externe bronnen gebruiken als hulp bij het maken van je programma, want daar kun je veel van leren. Je mag ook stukjes code overnemen, maar die moet je wel uitgebreid van commentaar voorzien om uit te leggen wat die code doet (minstens 1 regel commentaar per regel code!) en in commentaar de bron vermelden. De bron vermelden betekent dat je een link naar de exacte bron toevoegt, dus "uit een video op YouTube" is geen bronvermelding! Een link naar de code is minimaal wat we verwachten. Indien de code via persoonlijke communicatie gedeeld, vermeld dan minstens de naam van de persoon en jouw relatie tot die persoon. Gebruik `# BRON:` om duidelijk aan te geven dat dit een bronvermelding is en zodat wij het makkelijk terug kunnen vinden. Bijvoorbeeld:
 
